@@ -1,0 +1,187 @@
+ViewCount: 5
+Autolayout : 1.1769533157348633
+InWindow Autolayout : 1.4829635620117188
+systemSizeFit : 0.8070468902587891
+InWindow systemSizeFit : 1.3979673385620117
+Panda Layout : 0.8169412612915039
+Panda ViewLayout : 2.0929574966430664
+Apple Nestlayout : 1.0620355606079102
+Panda NestLayout : 0.697016716003418
+Panda Nest Viewlayout : 0.7770061492919922
+Node constant : 0.06902217864990234
+Apple constant : 0.8809566497802734
+Apple In Window constant : 0.27000904083251953
+SystemFitSize constant : 0.47194957733154297
+SystemFitSize In Window constant : 0.5060434341430664
+=============================================
+
+ViewCount: 10
+Autolayout : 1.6300678253173828
+InWindow Autolayout : 1.8879175186157227
+systemSizeFit : 1.0679960250854492
+InWindow systemSizeFit : 2.422928810119629
+Panda Layout : 1.3630390167236328
+Panda ViewLayout : 1.716017723083496
+Apple Nestlayout : 1.8230676651000977
+Panda NestLayout : 0.9400844573974609
+Panda Nest Viewlayout : 1.1789798736572266
+Node constant : 0.23102760314941406
+Apple constant : 1.134037971496582
+Apple In Window constant : 0.2709627151489258
+SystemFitSize constant : 0.6200075149536133
+SystemFitSize In Window constant : 0.6829500198364258
+=============================================
+
+ViewCount: 20
+Autolayout : 3.0879974365234375
+InWindow Autolayout : 2.9480457305908203
+systemSizeFit : 2.1660327911376953
+InWindow systemSizeFit : 4.124045372009277
+Panda Layout : 3.3850669860839844
+Panda ViewLayout : 3.2089948654174805
+Apple Nestlayout : 3.4869909286499023
+Panda NestLayout : 2.303004264831543
+Panda Nest Viewlayout : 2.9660463333129883
+Node constant : 0.3349781036376953
+Apple constant : 2.0390748977661133
+Apple In Window constant : 0.5791187286376953
+SystemFitSize constant : 1.0790824890136719
+SystemFitSize In Window constant : 1.3129711151123047
+=============================================
+
+ViewCount: 30
+Autolayout : 4.410028457641602
+InWindow Autolayout : 4.574060440063477
+systemSizeFit : 3.090023994445801
+InWindow systemSizeFit : 7.068037986755371
+Panda Layout : 5.3321123123168945
+Panda ViewLayout : 6.301999092102051
+Apple Nestlayout : 5.787014961242676
+Panda NestLayout : 5.017995834350586
+Panda Nest Viewlayout : 5.712032318115234
+Node constant : 0.2689361572265625
+Apple constant : 3.0989646911621094
+Apple In Window constant : 0.9959936141967773
+SystemFitSize constant : 2.2579431533813477
+SystemFitSize In Window constant : 1.9519329071044922
+=============================================
+
+ViewCount: 40
+Autolayout : 5.915999412536621
+InWindow Autolayout : 6.062030792236328
+systemSizeFit : 3.9800405502319336
+InWindow systemSizeFit : 7.624983787536621
+Panda Layout : 6.7740678787231445
+Panda ViewLayout : 6.43002986907959
+Apple Nestlayout : 8.033990859985352
+Panda NestLayout : 5.910992622375488
+Panda Nest Viewlayout : 8.538961410522461
+Node constant : 0.4830360412597656
+Apple constant : 4.330992698669434
+Apple In Window constant : 1.2530088424682617
+SystemFitSize constant : 2.2230148315429688
+SystemFitSize In Window constant : 2.647995948791504
+=============================================
+
+ViewCount: 50
+Autolayout : 7.467985153198242
+InWindow Autolayout : 8.374929428100586
+systemSizeFit : 6.378054618835449
+InWindow systemSizeFit : 11.268019676208496
+Panda Layout : 6.595015525817871
+Panda ViewLayout : 11.713981628417969
+Apple Nestlayout : 12.025952339172363
+Panda NestLayout : 9.279012680053711
+Panda Nest Viewlayout : 11.330008506774902
+Node constant : 0.6300210952758789
+Apple constant : 5.36501407623291
+Apple In Window constant : 1.5109777450561523
+SystemFitSize constant : 4.258990287780762
+SystemFitSize In Window constant : 5.2520036697387695
+=============================================
+
+ViewCount: 60
+Autolayout : 10.196924209594727
+InWindow Autolayout : 11.744022369384766
+systemSizeFit : 6.6699981689453125
+InWindow systemSizeFit : 13.203024864196777
+Panda Layout : 7.997989654541016
+Panda ViewLayout : 10.55908203125
+Apple Nestlayout : 14.758944511413574
+Panda NestLayout : 13.174057006835938
+Panda Nest Viewlayout : 14.729022979736328
+Node constant : 1.0919570922851562
+Apple constant : 6.4040422439575195
+Apple In Window constant : 1.6469955444335938
+SystemFitSize constant : 3.1970739364624023
+SystemFitSize In Window constant : 5.198955535888672
+=============================================
+
+ViewCount: 70
+Autolayout : 9.608983993530273
+InWindow Autolayout : 11.443018913269043
+systemSizeFit : 7.236957550048828
+InWindow systemSizeFit : 14.3510103225708
+Panda Layout : 9.149909019470215
+Panda ViewLayout : 10.151028633117676
+Apple Nestlayout : 17.416954040527344
+Panda NestLayout : 16.31796360015869
+Panda Nest Viewlayout : 19.343972206115723
+Node constant : 1.284956932067871
+Apple constant : 7.133007049560547
+Apple In Window constant : 1.9710063934326172
+SystemFitSize constant : 3.4399032592773438
+SystemFitSize In Window constant : 5.0460100173950195
+=============================================
+
+ViewCount: 80
+Autolayout : 10.715961456298828
+InWindow Autolayout : 12.174010276794434
+systemSizeFit : 7.571935653686523
+InWindow systemSizeFit : 15.607953071594238
+Panda Layout : 11.259078979492188
+Panda ViewLayout : 13.276934623718262
+Apple Nestlayout : 21.461009979248047
+Panda NestLayout : 19.73402500152588
+Panda Nest Viewlayout : 23.21791648864746
+Node constant : 1.8390417098999023
+Apple constant : 8.101940155029297
+Apple In Window constant : 2.496957778930664
+SystemFitSize constant : 6.595969200134277
+SystemFitSize In Window constant : 7.400035858154297
+=============================================
+
+ViewCount: 90
+Autolayout : 15.205025672912598
+InWindow Autolayout : 14.21499252319336
+systemSizeFit : 8.810997009277344
+InWindow systemSizeFit : 18.41890811920166
+Panda Layout : 11.433005332946777
+Panda ViewLayout : 20.86007595062256
+Apple Nestlayout : 47.36495018005371
+Panda NestLayout : 33.95998477935791
+Panda Nest Viewlayout : 50.60398578643799
+Node constant : 1.322031021118164
+Apple constant : 18.583059310913086
+Apple In Window constant : 5.692005157470703
+SystemFitSize constant : 9.179949760437012
+SystemFitSize In Window constant : 7.974028587341309
+=============================================
+
+ViewCount: 100
+Autolayout : 23.36299419403076
+InWindow Autolayout : 22.596001625061035
+systemSizeFit : 14.686942100524902
+InWindow systemSizeFit : 38.920044898986816
+Panda Layout : 19.692063331604004
+Panda ViewLayout : 19.755959510803223
+Apple Nestlayout : 41.950106620788574
+Panda NestLayout : 38.41197490692139
+Panda Nest Viewlayout : 38.380980491638184
+Node constant : 1.0050535202026367
+Apple constant : 11.351943016052246
+Apple In Window constant : 3.291964530944824
+SystemFitSize constant : 7.197976112365723
+SystemFitSize In Window constant : 9.22393798828125
+=============================================
+

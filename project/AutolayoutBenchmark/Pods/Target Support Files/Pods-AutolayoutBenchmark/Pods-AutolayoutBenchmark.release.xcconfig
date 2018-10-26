@@ -1,0 +1,11 @@
+ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/PandaKit" "${PODS_CONFIGURATION_BUILD_DIR}/SwiftCassowary" "${PODS_CONFIGURATION_BUILD_DIR}/SwiftLayoutable"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
+OTHER_CFLAGS = $(inherited) -iquote "${PODS_CONFIGURATION_BUILD_DIR}/PandaKit/Panda.framework/Headers" -iquote "${PODS_CONFIGURATION_BUILD_DIR}/SwiftCassowary/Cassowary.framework/Headers" -iquote "${PODS_CONFIGURATION_BUILD_DIR}/SwiftLayoutable/Layoutable.framework/Headers"
+OTHER_LDFLAGS = $(inherited) -framework "Cassowary" -framework "Layoutable" -framework "Panda"
+OTHER_SWIFT_FLAGS = $(inherited) "-D" "COCOAPODS"
+PODS_BUILD_DIR = ${BUILD_DIR}
+PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_PODFILE_DIR_PATH = ${SRCROOT}/.
+PODS_ROOT = ${SRCROOT}/Pods

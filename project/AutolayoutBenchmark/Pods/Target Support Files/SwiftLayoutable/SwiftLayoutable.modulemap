@@ -1,0 +1,6 @@
+framework module Layoutable {
+  umbrella header "SwiftLayoutable-umbrella.h"
+
+  export *
+  module * { export * }
+}

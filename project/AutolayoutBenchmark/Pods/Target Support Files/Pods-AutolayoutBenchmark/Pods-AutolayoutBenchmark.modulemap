@@ -1,0 +1,6 @@
+framework module Pods_AutolayoutBenchmark {
+  umbrella header "Pods-AutolayoutBenchmark-umbrella.h"
+
+  export *
+  module * { export * }
+}

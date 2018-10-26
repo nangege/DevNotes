@@ -1,0 +1,824 @@
+Panda No FixedWidth FirstPass : 44.1819429397583
+Panda No FixedWidth FirstPass : 36.292076110839844
+Panda No FixedWidth FirstPass : 8.84699821472168
+Panda No FixedWidth FirstPass : 4.894018173217773
+Panda No FixedWidth FirstPass : 9.988069534301758
+Panda No FixedWidth FirstPass : 6.300926208496094
+Panda No FixedWidth FirstPass : 3.9499998092651367
+Panda No FixedWidth FirstPass : 6.862998008728027
+Panda No FixedWidth FirstPass : 5.9299468994140625
+Panda No FixedWidth FirstPass : 5.042076110839844
+Panda No FixedWidth FirstPass : 5.692958831787109
+Panda No FixedWidth FirstPass : 11.878013610839844
+Panda No FixedWidth FirstPass : 7.733941078186035
+Panda No FixedWidth FirstPass : 22.391915321350098
+Panda No FixedWidth FirstPass : 6.383061408996582
+Panda No FixedWidth FirstPass : 7.033944129943848
+Panda No FixedWidth FirstPass : 9.737968444824219
+Panda No FixedWidth FirstPass : 8.362054824829102
+Panda No FixedWidth FirstPass : 6.482958793640137
+Panda No FixedWidth FirstPass : 7.693052291870117
+Panda No FixedWidth FirstPass : 4.8209428787231445
+Panda No FixedWidth FirstPass : 7.974028587341309
+Panda No FixedWidth FirstPass : 6.019949913024902
+Panda No FixedWidth FirstPass : 5.383968353271484
+Panda No FixedWidth FirstPass : 6.112933158874512
+Panda No FixedWidth FirstPass : 4.1790008544921875
+Panda No FixedWidth FirstPass : 3.771066665649414
+Panda No FixedWidth FirstPass : 30.3189754486084
+Panda No FixedWidth FirstPass : 10.378003120422363
+Panda No FixedWidth FirstPass : 5.504012107849121
+Panda No FixedWidth FirstPass : 9.107112884521484
+Panda No FixedWidth FirstPass : 10.19895076751709
+Panda No FixedWidth FirstPass : 8.273959159851074
+Panda No FixedWidth FirstPass : 8.36789608001709
+Panda No FixedWidth FirstPass : 2.012968063354492
+Panda No FixedWidth FirstPass : 9.360909461975098
+Panda No FixedWidth FirstPass : 7.153034210205078
+Panda No FixedWidth FirstPass : 8.152008056640625
+Panda No FixedWidth FirstPass : 8.453011512756348
+Panda No FixedWidth FirstPass : 6.472945213317871
+Panda No FixedWidth FirstPass : 5.474090576171875
+Panda No FixedWidth FirstPass : 10.328054428100586
+Panda No FixedWidth FirstPass : 3.9620399475097656
+Panda No FixedWidth FirstPass : 5.146026611328125
+Panda No FixedWidth FirstPass : 4.181027412414551
+Panda No FixedWidth FirstPass : 12.431025505065918
+Panda No FixedWidth FirstPass : 33.129096031188965
+Panda No FixedWidth FirstPass : 9.714007377624512
+Panda No FixedWidth FirstPass : 3.1980276107788086
+Panda No FixedWidth FirstPass : 3.852963447570801
+Panda No FixedWidth FirstPass : 9.976029396057129
+Panda No FixedWidth FirstPass : 3.574967384338379
+Panda No FixedWidth FirstPass : 4.040956497192383
+Panda No FixedWidth FirstPass : 8.116960525512695
+Panda No FixedWidth FirstPass : 6.1740875244140625
+Panda No FixedWidth FirstPass : 4.181981086730957
+Panda No FixedWidth FirstPass : 8.059024810791016
+Panda No FixedWidth FirstPass : 7.029891014099121
+Panda No FixedWidth FirstPass : 11.82401180267334
+Panda No FixedWidth FirstPass : 7.688999176025391
+Panda No FixedWidth FirstPass : 7.591962814331055
+Panda No FixedWidth FirstPass : 3.352999687194824
+Panda No FixedWidth FirstPass : 2.8159618377685547
+Panda No FixedWidth FirstPass : 9.283065795898438
+Panda No FixedWidth FirstPass : 2.48110294342041
+Panda No FixedWidth FirstPass : 3.654003143310547
+Panda No FixedWidth FirstPass : 3.3440589904785156
+Panda No FixedWidth FirstPass : 5.755066871643066
+Panda No FixedWidth FirstPass : 2.957940101623535
+Panda No FixedWidth FirstPass : 3.0459165573120117
+Panda No FixedWidth FirstPass : 4.6329498291015625
+Panda No FixedWidth FirstPass : 5.205988883972168
+Panda No FixedWidth FirstPass : 6.1550140380859375
+Panda No FixedWidth FirstPass : 4.0580034255981445
+Panda No FixedWidth FirstPass : 5.282998085021973
+Panda No FixedWidth FirstPass : 4.725933074951172
+Panda No FixedWidth FirstPass : 2.824068069458008
+Panda No FixedWidth FirstPass : 2.8470754623413086
+Panda No FixedWidth FirstPass : 3.2390356063842773
+Panda No FixedWidth FirstPass : 6.935000419616699
+Panda No FixedWidth FirstPass : 7.009029388427734
+Panda No FixedWidth FirstPass : 4.9800872802734375
+Panda No FixedWidth FirstPass : 6.873011589050293
+Panda No FixedWidth FirstPass : 6.430983543395996
+Panda No FixedWidth FirstPass : 7.641911506652832
+Panda No FixedWidth FirstPass : 4.417061805725098
+Panda No FixedWidth FirstPass : 5.836009979248047
+Panda No FixedWidth FirstPass : 7.696986198425293
+Panda No FixedWidth FirstPass : 3.5129785537719727
+Panda No FixedWidth FirstPass : 4.428982734680176
+Panda No FixedWidth FirstPass : 5.214095115661621
+Panda No FixedWidth FirstPass : 7.627964019775391
+Panda No FixedWidth FirstPass : 5.946993827819824
+Panda No FixedWidth FirstPass : 8.10706615447998
+Panda No FixedWidth FirstPass : 6.133913993835449
+Panda No FixedWidth FirstPass : 9.113907814025879
+Panda No FixedWidth FirstPass : 9.765028953552246
+Panda No FixedWidth FirstPass : 6.098031997680664
+Panda No FixedWidth FirstPass : 3.731966018676758
+Panda No FixedWidth FirstPass : 5.383014678955078
+Panda No FixedWidth FirstPass : 9.507060050964355
+Panda No FixedWidth FirstPass : 6.740927696228027
+Panda No FixedWidth FirstPass : 6.551027297973633
+Panda No FixedWidth FirstPass : 7.261991500854492
+Panda No FixedWidth FirstPass : 10.38503646850586
+Panda No FixedWidth FirstPass : 4.9610137939453125
+Panda No FixedWidth FirstPass : 5.605936050415039
+Panda No FixedWidth FirstPass : 6.119012832641602
+Panda No FixedWidth FirstPass : 5.085945129394531
+Panda No FixedWidth FirstPass : 9.039044380187988
+Panda No FixedWidth FirstPass : 8.670926094055176
+Panda No FixedWidth FirstPass : 9.588956832885742
+Panda No FixedWidth FirstPass : 7.616996765136719
+Panda No FixedWidth FirstPass : 7.622003555297852
+Panda No FixedWidth FirstPass : 3.237009048461914
+Panda No FixedWidth FirstPass : 3.08990478515625
+Panda No FixedWidth FirstPass : 2.6630163192749023
+Panda No FixedWidth FirstPass : 2.597928047180176
+Panda No FixedWidth FirstPass : 6.886959075927734
+Panda No FixedWidth FirstPass : 3.751993179321289
+Panda No FixedWidth FirstPass : 4.348039627075195
+Panda No FixedWidth FirstPass : 12.722969055175781
+Panda No FixedWidth FirstPass : 5.974054336547852
+Panda No FixedWidth FirstPass : 6.358981132507324
+Panda No FixedWidth FirstPass : 4.140019416809082
+Panda No FixedWidth FirstPass : 3.30507755279541
+Panda No FixedWidth FirstPass : 11.079907417297363
+Panda No FixedWidth FirstPass : 3.9769411087036133
+Panda No FixedWidth FirstPass : 4.312038421630859
+Panda No FixedWidth FirstPass : 3.926992416381836
+Panda No FixedWidth FirstPass : 4.1370391845703125
+Panda No FixedWidth FirstPass : 1.6189813613891602
+Panda No FixedWidth FirstPass : 5.13005256652832
+Panda No FixedWidth FirstPass : 12.037038803100586
+Panda No FixedWidth FirstPass : 6.2149763107299805
+Panda No FixedWidth FirstPass : 3.937959671020508
+Panda No FixedWidth FirstPass : 3.1309127807617188
+Panda No FixedWidth FirstPass : 6.862044334411621
+Panda No FixedWidth FirstPass : 3.333926200866699
+Panda No FixedWidth FirstPass : 9.763002395629883
+Panda No FixedWidth FirstPass : 3.4459829330444336
+Panda No FixedWidth FirstPass : 5.121111869812012
+Panda No FixedWidth FirstPass : 10.180950164794922
+Panda No FixedWidth FirstPass : 8.748054504394531
+Panda No FixedWidth FirstPass : 5.109071731567383
+Panda No FixedWidth FirstPass : 6.006002426147461
+Panda No FixedWidth FirstPass : 8.16190242767334
+Panda No FixedWidth FirstPass : 6.124019622802734
+Panda No FixedWidth FirstPass : 5.574941635131836
+Panda No FixedWidth FirstPass : 9.555935859680176
+Panda No FixedWidth FirstPass : 4.617929458618164
+Panda No FixedWidth FirstPass : 8.933067321777344
+Panda No FixedWidth FirstPass : 4.023909568786621
+Panda No FixedWidth FirstPass : 2.4890899658203125
+Panda No FixedWidth FirstPass : 2.624988555908203
+Panda No FixedWidth FirstPass : 5.895018577575684
+Panda No FixedWidth FirstPass : 10.014057159423828
+Panda No FixedWidth FirstPass : 6.175041198730469
+Panda No FixedWidth FirstPass : 7.16400146484375
+Panda No FixedWidth FirstPass : 3.6270618438720703
+Panda No FixedWidth FirstPass : 7.385015487670898
+Panda No FixedWidth FirstPass : 2.8089284896850586
+Panda No FixedWidth FirstPass : 2.8949975967407227
+Panda No FixedWidth FirstPass : 8.183002471923828
+Panda No FixedWidth FirstPass : 7.854938507080078
+Panda No FixedWidth FirstPass : 5.092024803161621
+Panda No FixedWidth FirstPass : 7.585048675537109
+Panda No FixedWidth FirstPass : 3.7549734115600586
+Panda No FixedWidth FirstPass : 4.873037338256836
+Panda No FixedWidth FirstPass : 8.008003234863281
+Panda No FixedWidth FirstPass : 5.089998245239258
+Panda No FixedWidth FirstPass : 6.692051887512207
+Panda No FixedWidth FirstPass : 5.454063415527344
+Panda No FixedWidth FirstPass : 3.9600133895874023
+Panda No FixedWidth FirstPass : 13.55600357055664
+Panda No FixedWidth FirstPass : 5.535006523132324
+Panda No FixedWidth FirstPass : 6.222009658813477
+Panda No FixedWidth FirstPass : 4.680991172790527
+Panda No FixedWidth FirstPass : 3.9300918579101562
+Panda No FixedWidth FirstPass : 2.884030342102051
+Panda No FixedWidth FirstPass : 5.749940872192383
+Panda No FixedWidth FirstPass : 8.395910263061523
+Panda No FixedWidth FirstPass : 4.80198860168457
+Panda No FixedWidth FirstPass : 8.152961730957031
+Panda No FixedWidth FirstPass : 4.320979118347168
+Panda No FixedWidth FirstPass : 7.7610015869140625
+Panda No FixedWidth FirstPass : 4.494071006774902
+Panda No FixedWidth FirstPass : 5.959987640380859
+Panda No FixedWidth FirstPass : 7.405996322631836
+Panda No FixedWidth FirstPass : 6.52003288269043
+Panda No FixedWidth FirstPass : 7.773041725158691
+Panda No FixedWidth FirstPass : 12.70604133605957
+Panda No FixedWidth FirstPass : 5.076050758361816
+Panda No FixedWidth FirstPass : 4.680991172790527
+Panda No FixedWidth FirstPass : 4.665970802307129
+Panda No FixedWidth FirstPass : 3.697991371154785
+Panda No FixedWidth FirstPass : 4.902958869934082
+Panda No FixedWidth FirstPass : 5.06901741027832
+Panda No FixedWidth FirstPass : 4.546999931335449
+Panda No FixedWidth FirstPass : 5.114912986755371
+Panda No FixedWidth FirstPass : 5.42294979095459
+Panda No FixedWidth FirstPass : 5.169034004211426
+Panda No FixedWidth FirstPass : 5.789041519165039
+Panda No FixedWidth FirstPass : 6.206035614013672
+Panda No FixedWidth FirstPass : 3.062009811401367
+Panda No FixedWidth FirstPass : 10.01894474029541
+Panda No Image FirstPass : 34.384965896606445
+Panda No Image FirstPass : 32.58705139160156
+Panda No Image FirstPass : 6.384015083312988
+Panda No Image FirstPass : 4.74703311920166
+Panda No Image FirstPass : 7.726073265075684
+Panda No Image FirstPass : 6.147980690002441
+Panda No Image FirstPass : 3.8999319076538086
+Panda No Image FirstPass : 5.360960960388184
+Panda No Image FirstPass : 7.3500871658325195
+Panda No Image FirstPass : 5.378961563110352
+Panda No Image FirstPass : 3.1499862670898438
+Panda No Image FirstPass : 9.742021560668945
+Panda No Image FirstPass : 5.751967430114746
+Panda No Image FirstPass : 20.568013191223145
+Panda No Image FirstPass : 4.432916641235352
+Panda No Image FirstPass : 7.241010665893555
+Panda No Image FirstPass : 7.907986640930176
+Panda No Image FirstPass : 7.853031158447266
+Panda No Image FirstPass : 5.164980888366699
+Panda No Image FirstPass : 7.065057754516602
+Panda No Image FirstPass : 5.0209760665893555
+Panda No Image FirstPass : 5.903005599975586
+Panda No Image FirstPass : 5.6830644607543945
+Panda No Image FirstPass : 4.873991012573242
+Panda No Image FirstPass : 4.7550201416015625
+Panda No Image FirstPass : 3.9730072021484375
+Panda No Image FirstPass : 3.466010093688965
+Panda No Image FirstPass : 27.688980102539062
+Panda No Image FirstPass : 8.159995079040527
+Panda No Image FirstPass : 5.666017532348633
+Panda No Image FirstPass : 7.931947708129883
+Panda No Image FirstPass : 9.228944778442383
+Panda No Image FirstPass : 5.767941474914551
+Panda No Image FirstPass : 9.164929389953613
+Panda No Image FirstPass : 2.1619796752929688
+Panda No Image FirstPass : 7.601022720336914
+Panda No Image FirstPass : 6.8759918212890625
+Panda No Image FirstPass : 5.460977554321289
+Panda No Image FirstPass : 7.657051086425781
+Panda No Image FirstPass : 4.329085350036621
+Panda No Image FirstPass : 4.92703914642334
+Panda No Image FirstPass : 7.946014404296875
+Panda No Image FirstPass : 3.5120248794555664
+Panda No Image FirstPass : 4.765033721923828
+Panda No Image FirstPass : 4.612922668457031
+Panda No Image FirstPass : 9.626984596252441
+Panda No Image FirstPass : 28.744935989379883
+Panda No Image FirstPass : 7.6819658279418945
+Panda No Image FirstPass : 3.2830238342285156
+Panda No Image FirstPass : 4.056096076965332
+Panda No Image FirstPass : 8.460044860839844
+Panda No Image FirstPass : 4.321098327636719
+Panda No Image FirstPass : 4.341006278991699
+Panda No Image FirstPass : 6.082057952880859
+Panda No Image FirstPass : 5.817055702209473
+Panda No Image FirstPass : 4.559993743896484
+Panda No Image FirstPass : 5.9680938720703125
+Panda No Image FirstPass : 6.325006484985352
+Panda No Image FirstPass : 9.826064109802246
+Panda No Image FirstPass : 7.359027862548828
+Panda No Image FirstPass : 4.83393669128418
+Panda No Image FirstPass : 3.6840438842773438
+Panda No Image FirstPass : 2.8159618377685547
+Panda No Image FirstPass : 6.919980049133301
+Panda No Image FirstPass : 2.5539398193359375
+Panda No Image FirstPass : 3.392934799194336
+Panda No Image FirstPass : 3.1729936599731445
+Panda No Image FirstPass : 3.345966339111328
+Panda No Image FirstPass : 2.8330087661743164
+Panda No Image FirstPass : 3.0879974365234375
+Panda No Image FirstPass : 4.673957824707031
+Panda No Image FirstPass : 3.4459829330444336
+Panda No Image FirstPass : 5.796074867248535
+Panda No Image FirstPass : 4.051923751831055
+Panda No Image FirstPass : 4.0749311447143555
+Panda No Image FirstPass : 4.217982292175293
+Panda No Image FirstPass : 2.7480125427246094
+Panda No Image FirstPass : 2.8569698333740234
+Panda No Image FirstPass : 3.6699771881103516
+Panda No Image FirstPass : 4.868984222412109
+Panda No Image FirstPass : 6.319999694824219
+Panda No Image FirstPass : 3.854990005493164
+Panda No Image FirstPass : 5.827903747558594
+Panda No Image FirstPass : 6.384015083312988
+Panda No Image FirstPass : 5.403995513916016
+Panda No Image FirstPass : 4.2629241943359375
+Panda No Image FirstPass : 5.707025527954102
+Panda No Image FirstPass : 6.517887115478516
+Panda No Image FirstPass : 3.2830238342285156
+Panda No Image FirstPass : 4.235982894897461
+Panda No Image FirstPass : 3.371000289916992
+Panda No Image FirstPass : 7.471919059753418
+Panda No Image FirstPass : 5.96308708190918
+Panda No Image FirstPass : 6.9359540939331055
+Panda No Image FirstPass : 6.510019302368164
+Panda No Image FirstPass : 7.019996643066406
+Panda No Image FirstPass : 10.17606258392334
+Panda No Image FirstPass : 4.279017448425293
+Panda No Image FirstPass : 3.751993179321289
+Panda No Image FirstPass : 4.322052001953125
+Panda No Image FirstPass : 6.821990013122559
+Panda No Image FirstPass : 6.184935569763184
+Panda No Image FirstPass : 4.462957382202148
+Panda No Image FirstPass : 6.968021392822266
+Panda No Image FirstPass : 8.524060249328613
+Panda No Image FirstPass : 5.730986595153809
+Panda No Image FirstPass : 4.774928092956543
+Panda No Image FirstPass : 4.251003265380859
+Panda No Image FirstPass : 4.168033599853516
+Panda No Image FirstPass : 6.159067153930664
+Panda No Image FirstPass : 8.070945739746094
+Panda No Image FirstPass : 7.75301456451416
+Panda No Image FirstPass : 7.678031921386719
+Panda No Image FirstPass : 6.103992462158203
+Panda No Image FirstPass : 2.8810501098632812
+Panda No Image FirstPass : 2.7600526809692383
+Panda No Image FirstPass : 2.673029899597168
+Panda No Image FirstPass : 2.4210214614868164
+Panda No Image FirstPass : 5.011916160583496
+Panda No Image FirstPass : 3.755927085876465
+Panda No Image FirstPass : 4.225015640258789
+Panda No Image FirstPass : 11.227011680603027
+Panda No Image FirstPass : 7.147073745727539
+Panda No Image FirstPass : 4.551053047180176
+Panda No Image FirstPass : 3.8579702377319336
+Panda No Image FirstPass : 3.3589601516723633
+Panda No Image FirstPass : 2.195000648498535
+Panda No Image FirstPass : 3.5080909729003906
+Panda No Image FirstPass : 4.565954208374023
+Panda No Image FirstPass : 2.6390552520751953
+Panda No Image FirstPass : 3.569960594177246
+Panda No Image FirstPass : 1.4580488204956055
+Panda No Image FirstPass : 4.403948783874512
+Panda No Image FirstPass : 10.635018348693848
+Panda No Image FirstPass : 6.119966506958008
+Panda No Image FirstPass : 2.8769969940185547
+Panda No Image FirstPass : 2.375006675720215
+Panda No Image FirstPass : 6.520986557006836
+Panda No Image FirstPass : 3.332972526550293
+Panda No Image FirstPass : 8.337974548339844
+Panda No Image FirstPass : 3.6859512329101562
+Panda No Image FirstPass : 5.192041397094727
+Panda No Image FirstPass : 7.441997528076172
+Panda No Image FirstPass : 7.313013076782227
+Panda No Image FirstPass : 4.824995994567871
+Panda No Image FirstPass : 5.991935729980469
+Panda No Image FirstPass : 6.766080856323242
+Panda No Image FirstPass : 6.039023399353027
+Panda No Image FirstPass : 5.542993545532227
+Panda No Image FirstPass : 7.801055908203125
+Panda No Image FirstPass : 4.855990409851074
+Panda No Image FirstPass : 6.086945533752441
+Panda No Image FirstPass : 3.794074058532715
+Panda No Image FirstPass : 2.462029457092285
+Panda No Image FirstPass : 2.6590824127197266
+Panda No Image FirstPass : 3.5910606384277344
+Panda No Image FirstPass : 9.744048118591309
+Panda No Image FirstPass : 4.317045211791992
+Panda No Image FirstPass : 7.146000862121582
+Panda No Image FirstPass : 2.485990524291992
+Panda No Image FirstPass : 3.7910938262939453
+Panda No Image FirstPass : 2.5899410247802734
+Panda No Image FirstPass : 2.9799938201904297
+Panda No Image FirstPass : 6.2819719314575195
+Panda No Image FirstPass : 8.378982543945312
+Panda No Image FirstPass : 5.131006240844727
+Panda No Image FirstPass : 5.375981330871582
+Panda No Image FirstPass : 3.4939050674438477
+Panda No Image FirstPass : 4.714012145996094
+Panda No Image FirstPass : 5.776047706604004
+Panda No Image FirstPass : 4.791021347045898
+Panda No Image FirstPass : 4.539966583251953
+Panda No Image FirstPass : 5.217075347900391
+Panda No Image FirstPass : 3.628969192504883
+Panda No Image FirstPass : 11.422991752624512
+Panda No Image FirstPass : 4.831910133361816
+Panda No Image FirstPass : 4.564046859741211
+Panda No Image FirstPass : 4.232048988342285
+Panda No Image FirstPass : 3.8759708404541016
+Panda No Image FirstPass : 2.776026725769043
+Panda No Image FirstPass : 4.017949104309082
+Panda No Image FirstPass : 7.866978645324707
+Panda No Image FirstPass : 5.335092544555664
+Panda No Image FirstPass : 6.16002082824707
+Panda No Image FirstPass : 4.297971725463867
+Panda No Image FirstPass : 5.813956260681152
+Panda No Image FirstPass : 4.179954528808594
+Panda No Image FirstPass : 6.2988996505737305
+Panda No Image FirstPass : 5.758047103881836
+Panda No Image FirstPass : 6.167888641357422
+Panda No Image FirstPass : 5.668997764587402
+Panda No Image FirstPass : 11.945009231567383
+Panda No Image FirstPass : 3.3680200576782227
+Panda No Image FirstPass : 4.326939582824707
+Panda No Image FirstPass : 4.104018211364746
+Panda No Image FirstPass : 3.0469894409179688
+Panda No Image FirstPass : 3.070950508117676
+Panda No Image FirstPass : 5.245089530944824
+Panda No Image FirstPass : 4.499912261962891
+Panda No Image FirstPass : 4.026055335998535
+Panda No Image FirstPass : 5.244016647338867
+Panda No Image FirstPass : 5.290985107421875
+Panda No Image FirstPass : 4.559040069580078
+Panda No Image FirstPass : 6.045937538146973
+Panda No Image FirstPass : 3.1920671463012695
+Panda No Image FirstPass : 7.7800750732421875
+Panda FirstPass : 37.00602054595947
+Panda FirstPass : 33.17892551422119
+Panda FirstPass : 6.818056106567383
+Panda FirstPass : 4.906058311462402
+Panda FirstPass : 8.05199146270752
+Panda FirstPass : 6.291031837463379
+Panda FirstPass : 4.086017608642578
+Panda FirstPass : 4.696965217590332
+Panda FirstPass : 5.854964256286621
+Panda FirstPass : 4.876971244812012
+Panda FirstPass : 4.873991012573242
+Panda FirstPass : 9.889006614685059
+Panda FirstPass : 6.035923957824707
+Panda FirstPass : 19.392013549804688
+Panda FirstPass : 4.323005676269531
+Panda FirstPass : 6.976008415222168
+Panda FirstPass : 7.740974426269531
+Panda FirstPass : 8.14807415008545
+Panda FirstPass : 5.842089653015137
+Panda FirstPass : 6.933927536010742
+Panda FirstPass : 4.739046096801758
+Panda FirstPass : 5.832910537719727
+Panda FirstPass : 5.631923675537109
+Panda FirstPass : 4.967927932739258
+Panda FirstPass : 4.826068878173828
+Panda FirstPass : 3.71396541595459
+Panda FirstPass : 3.2210350036621094
+Panda FirstPass : 15.674948692321777
+Panda FirstPass : 8.710980415344238
+Panda FirstPass : 5.1250457763671875
+Panda FirstPass : 7.713913917541504
+Panda FirstPass : 9.541034698486328
+Panda FirstPass : 6.497979164123535
+Panda FirstPass : 8.559942245483398
+Panda FirstPass : 2.1480321884155273
+Panda FirstPass : 7.8650712966918945
+Panda FirstPass : 6.886005401611328
+Panda FirstPass : 5.846977233886719
+Panda FirstPass : 8.2319974899292
+Panda FirstPass : 4.315972328186035
+Panda FirstPass : 5.113959312438965
+Panda FirstPass : 8.346915245056152
+Panda FirstPass : 3.8499832153320312
+Panda FirstPass : 5.0400495529174805
+Panda FirstPass : 4.387974739074707
+Panda FirstPass : 9.779930114746094
+Panda FirstPass : 12.184977531433105
+Panda FirstPass : 7.696986198425293
+Panda FirstPass : 3.1839609146118164
+Panda FirstPass : 3.5849809646606445
+Panda FirstPass : 7.503032684326172
+Panda FirstPass : 3.6929845809936523
+Panda FirstPass : 4.047989845275879
+Panda FirstPass : 5.912899971008301
+Panda FirstPass : 5.852937698364258
+Panda FirstPass : 4.289984703063965
+Panda FirstPass : 5.759000778198242
+Panda FirstPass : 6.711006164550781
+Panda FirstPass : 9.431958198547363
+Panda FirstPass : 7.580995559692383
+Panda FirstPass : 5.115032196044922
+Panda FirstPass : 3.1609535217285156
+Panda FirstPass : 3.081083297729492
+Panda FirstPass : 7.01904296875
+Panda FirstPass : 2.550959587097168
+Panda FirstPass : 3.352999687194824
+Panda FirstPass : 3.5930871963500977
+Panda FirstPass : 3.6420822143554688
+Panda FirstPass : 2.9540061950683594
+Panda FirstPass : 3.1119585037231445
+Panda FirstPass : 4.834890365600586
+Panda FirstPass : 3.6569833755493164
+Panda FirstPass : 6.921052932739258
+Panda FirstPass : 4.535913467407227
+Panda FirstPass : 4.176974296569824
+Panda FirstPass : 4.356980323791504
+Panda FirstPass : 2.8749704360961914
+Panda FirstPass : 2.9469728469848633
+Panda FirstPass : 3.267049789428711
+Panda FirstPass : 5.612969398498535
+Panda FirstPass : 6.527066230773926
+Panda FirstPass : 3.8909912109375
+Panda FirstPass : 5.735039710998535
+Panda FirstPass : 8.16798210144043
+Panda FirstPass : 9.364008903503418
+Panda FirstPass : 4.81104850769043
+Panda FirstPass : 6.290078163146973
+Panda FirstPass : 6.808996200561523
+Panda FirstPass : 3.4949779510498047
+Panda FirstPass : 4.392027854919434
+Panda FirstPass : 3.641963005065918
+Panda FirstPass : 7.527947425842285
+Panda FirstPass : 5.995988845825195
+Panda FirstPass : 6.63602352142334
+Panda FirstPass : 6.549954414367676
+Panda FirstPass : 7.535099983215332
+Panda FirstPass : 10.293960571289062
+Panda FirstPass : 4.3048858642578125
+Panda FirstPass : 3.830075263977051
+Panda FirstPass : 5.457043647766113
+Panda FirstPass : 7.055044174194336
+Panda FirstPass : 6.024003028869629
+Panda FirstPass : 4.698038101196289
+Panda FirstPass : 7.051944732666016
+Panda FirstPass : 8.173942565917969
+Panda FirstPass : 5.051970481872559
+Panda FirstPass : 5.568027496337891
+Panda FirstPass : 4.378080368041992
+Panda FirstPass : 4.361987113952637
+Panda FirstPass : 6.4879655838012695
+Panda FirstPass : 8.19408893585205
+Panda FirstPass : 7.529973983764648
+Panda FirstPass : 8.092999458312988
+Panda FirstPass : 6.428003311157227
+Panda FirstPass : 2.9458999633789062
+Panda FirstPass : 2.9060840606689453
+Panda FirstPass : 2.5489330291748047
+Panda FirstPass : 2.583026885986328
+Panda FirstPass : 5.076885223388672
+Panda FirstPass : 4.091978073120117
+Panda FirstPass : 4.352927207946777
+Panda FirstPass : 10.90705394744873
+Panda FirstPass : 5.855917930603027
+Panda FirstPass : 4.508018493652344
+Panda FirstPass : 3.872990608215332
+Panda FirstPass : 2.6949644088745117
+Panda FirstPass : 2.516031265258789
+Panda FirstPass : 3.269076347351074
+Panda FirstPass : 4.583954811096191
+Panda FirstPass : 2.6570558547973633
+Panda FirstPass : 3.4530162811279297
+Panda FirstPass : 1.546025276184082
+Panda FirstPass : 4.4449567794799805
+Panda FirstPass : 11.359095573425293
+Panda FirstPass : 6.206989288330078
+Panda FirstPass : 2.9239654541015625
+Panda FirstPass : 2.7370452880859375
+Panda FirstPass : 6.929993629455566
+Panda FirstPass : 3.625035285949707
+Panda FirstPass : 7.738947868347168
+Panda FirstPass : 3.5289525985717773
+Panda FirstPass : 5.192041397094727
+Panda FirstPass : 6.998896598815918
+Panda FirstPass : 7.475018501281738
+Panda FirstPass : 5.088925361633301
+Panda FirstPass : 6.054997444152832
+Panda FirstPass : 5.616903305053711
+Panda FirstPass : 6.340980529785156
+Panda FirstPass : 5.795955657958984
+Panda FirstPass : 7.611989974975586
+Panda FirstPass : 4.691958427429199
+Panda FirstPass : 6.194949150085449
+Panda FirstPass : 3.9271116256713867
+Panda FirstPass : 2.6040077209472656
+Panda FirstPass : 2.604961395263672
+Panda FirstPass : 3.455996513366699
+Panda FirstPass : 10.275006294250488
+Panda FirstPass : 4.371047019958496
+Panda FirstPass : 7.004976272583008
+Panda FirstPass : 2.5949478149414062
+Panda FirstPass : 3.6950111389160156
+Panda FirstPass : 2.5539398193359375
+Panda FirstPass : 2.920985221862793
+Panda FirstPass : 5.589962005615234
+Panda FirstPass : 8.101940155029297
+Panda FirstPass : 5.164980888366699
+Panda FirstPass : 5.849957466125488
+Panda FirstPass : 3.6989450454711914
+Panda FirstPass : 5.627989768981934
+Panda FirstPass : 6.0520172119140625
+Panda FirstPass : 5.199909210205078
+Panda FirstPass : 5.154013633728027
+Panda FirstPass : 5.820989608764648
+Panda FirstPass : 4.072904586791992
+Panda FirstPass : 11.504054069519043
+Panda FirstPass : 5.264997482299805
+Panda FirstPass : 4.745960235595703
+Panda FirstPass : 4.237055778503418
+Panda FirstPass : 4.15802001953125
+Panda FirstPass : 3.1009912490844727
+Panda FirstPass : 4.288077354431152
+Panda FirstPass : 8.473992347717285
+Panda FirstPass : 4.95302677154541
+Panda FirstPass : 5.810022354125977
+Panda FirstPass : 4.096031188964844
+Panda FirstPass : 5.592942237854004
+Panda FirstPass : 4.233002662658691
+Panda FirstPass : 6.108999252319336
+Panda FirstPass : 6.077051162719727
+Panda FirstPass : 6.232023239135742
+Panda FirstPass : 6.6939592361450195
+Panda FirstPass : 12.646079063415527
+Panda FirstPass : 3.8750171661376953
+Panda FirstPass : 4.479050636291504
+Panda FirstPass : 4.715085029602051
+Panda FirstPass : 3.6110877990722656
+Panda FirstPass : 3.2830238342285156
+Panda FirstPass : 4.6280622482299805
+Panda FirstPass : 4.433989524841309
+Panda FirstPass : 3.5200119018554688
+Panda FirstPass : 5.550026893615723
+Panda FirstPass : 5.321025848388672
+Panda FirstPass : 4.527091979980469
+Panda FirstPass : 6.115078926086426
+Panda FirstPass : 3.1349658966064453
+Panda FirstPass : 7.81404972076416 
+YYKit: 360.77
+ YYKit: 26.12
+ YYKit: 9.13
+ YYKit: 8.94
+ YYKit: 9.80
+ YYKit: 10.52
+ YYKit: 3.24
+ YYKit: 5.95
+ YYKit: 12.32
+ YYKit: 9.20
+ YYKit: 2.31
+ YYKit: 5.92
+ YYKit: 9.31
+ YYKit: 20.19
+ YYKit: 2.90
+ YYKit: 6.96
+ YYKit: 3.61
+ YYKit: 4.09
+ YYKit: 11.11
+ YYKit: 4.42
+ YYKit: 6.33
+ YYKit: 3.75
+ YYKit: 4.16
+ YYKit: 3.72
+ YYKit: 6.42
+ YYKit: 3.83
+ YYKit: 2.72
+ YYKit: 16.33
+ YYKit: 15.67
+ YYKit: 3.16
+ YYKit: 5.49
+ YYKit: 6.71
+ YYKit: 3.38
+ YYKit: 5.05
+ YYKit: 6.58
+ YYKit: 5.95
+ YYKit: 10.75
+ YYKit: 4.01
+ YYKit: 9.89
+ YYKit: 2.99
+ YYKit: 2.93
+ YYKit: 20.74
+ YYKit: 6.92
+ YYKit: 9.58
+ YYKit: 3.93
+ YYKit: 5.68
+ YYKit: 8.37
+ YYKit: 5.49
+ YYKit: 2.47
+ YYKit: 3.23
+ YYKit: 10.58
+ YYKit: 2.23
+ YYKit: 2.45
+ YYKit: 5.23
+ YYKit: 11.45
+ YYKit: 3.89
+ YYKit: 3.96
+ YYKit: 4.60
+ YYKit: 6.75
+ YYKit: 4.98
+ YYKit: 3.44
+ YYKit: 2.29
+ YYKit: 5.35
+ YYKit: 4.54
+ YYKit: 1.85
+ YYKit: 2.05
+ YYKit: 2.47
+ YYKit: 3.98
+ YYKit: 3.85
+ YYKit: 2.47
+ YYKit: 2.84
+ YYKit: 2.08
+ YYKit: 5.48
+ YYKit: 2.88
+ YYKit: 3.07
+ YYKit: 2.83
+ YYKit: 2.65
+ YYKit: 3.72
+ YYKit: 2.91
+ YYKit: 13.23
+ YYKit: 3.67
+ YYKit: 2.42
+ YYKit: 2.80
+ YYKit: 5.46
+ YYKit: 3.79
+ YYKit: 2.85
+ YYKit: 3.05
+ YYKit: 3.23
+ YYKit: 4.30
+ YYKit: 2.33
+ YYKit: 1.96
+ YYKit: 3.92
+ YYKit: 9.73
+ YYKit: 4.55
+ YYKit: 3.16
+ YYKit: 6.28
+ YYKit: 7.41
+ YYKit: 2.42
+ YYKit: 2.34
+ YYKit: 4.60
+ YYKit: 4.15
+ YYKit: 3.70
+ YYKit: 3.44
+ YYKit: 5.18
+ YYKit: 14.68
+ YYKit: 9.08
+ YYKit: 4.78
+ YYKit: 4.06
+ YYKit: 2.52
+ YYKit: 7.31
+ YYKit: 4.64
+ YYKit: 10.17
+ YYKit: 4.62
+ YYKit: 4.20
+ YYKit: 1.87
+ YYKit: 3.89
+ YYKit: 2.62
+ YYKit: 1.96
+ YYKit: 6.96
+ YYKit: 4.71
+ YYKit: 4.44
+ YYKit: 5.61
+ YYKit: 3.21
+ YYKit: 5.22
+ YYKit: 3.11
+ YYKit: 2.44
+ YYKit: 2.15
+ YYKit: 2.13
+ YYKit: 4.90
+ YYKit: 1.92
+ YYKit: 1.92
+ YYKit: 4.25
+ YYKit: 6.43
+ YYKit: 8.75
+ YYKit: 4.21
+ YYKit: 6.22
+ YYKit: 3.15
+ YYKit: 7.38
+ YYKit: 5.56
+ YYKit: 4.61
+ YYKit: 3.78
+ YYKit: 5.27
+ YYKit: 8.42
+ YYKit: 4.22
+ YYKit: 6.04
+ YYKit: 3.99
+ YYKit: 2.65
+ YYKit: 3.55
+ YYKit: 10.57
+ YYKit: 4.59
+ YYKit: 10.60
+ YYKit: 4.50
+ YYKit: 2.70
+ YYKit: 4.41
+ YYKit: 1.98
+ YYKit: 4.66
+ YYKit: 10.02
+ YYKit: 2.55
+ YYKit: 10.95
+ YYKit: 2.07
+ YYKit: 5.06
+ YYKit: 3.00
+ YYKit: 2.31
+ YYKit: 2.89
+ YYKit: 10.05
+ YYKit: 2.60
+ YYKit: 2.88
+ YYKit: 2.09
+ YYKit: 9.04
+ YYKit: 3.88
+ YYKit: 2.69
+ YYKit: 2.85
+ YYKit: 5.79
+ YYKit: 8.21
+ YYKit: 8.38
+ YYKit: 3.57
+ YYKit: 4.00
+ YYKit: 2.42
+ YYKit: 4.21
+ YYKit: 3.85
+ YYKit: 4.54
+ YYKit: 5.60
+ YYKit: 4.59
+ YYKit: 5.20
+ YYKit: 2.69
+ YYKit: 7.15
+ YYKit: 4.15
+ YYKit: 16.77
+ YYKit: 7.36
+ YYKit: 9.07
+ YYKit: 4.89
+ YYKit: 10.44
+ YYKit: 3.34
+ YYKit: 5.68
+ YYKit: 11.65
+ YYKit: 2.44
+ YYKit: 2.92
+ YYKit: 5.41
+ YYKit: 3.82
+ YYKit: 2.59
+ YYKit: 3.41
+ YYKit: 6.22
+ YYKit: 2.76
+ YYKit: 3.48
+ YYKit: 2.65
+ YYKit: 6.87

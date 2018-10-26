@@ -1,0 +1,25 @@
+PODS:
+  - PandaKit (0.1-beta):
+    - SwiftCassowary (~> 0.1-beta)
+    - SwiftLayoutable (~> 0.1-beta)
+  - SwiftCassowary (0.1-beta)
+  - SwiftLayoutable (0.1-beta):
+    - SwiftCassowary (~> 0.1-beta)
+
+DEPENDENCIES:
+  - PandaKit (= 0.1-beta)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - PandaKit
+    - SwiftCassowary
+    - SwiftLayoutable
+
+SPEC CHECKSUMS:
+  PandaKit: 4d34b7641adde6b55b7dac7e831bdc328845d188
+  SwiftCassowary: 8c425d7270390e72816ab1d943313af9b6150a83
+  SwiftLayoutable: b162a357b718f8cc8f55b2e30a8d6f3a7077b9cf
+
+PODFILE CHECKSUM: b16579ed64a90cdf1982f7a5aba4b6b4d176ac19
+
+COCOAPODS: 1.5.3

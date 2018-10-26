@@ -1,0 +1,6 @@
+framework module Cassowary {
+  umbrella header "SwiftCassowary-umbrella.h"
+
+  export *
+  module * { export * }
+}

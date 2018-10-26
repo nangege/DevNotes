@@ -1,0 +1,6 @@
+framework module Panda {
+  umbrella header "PandaKit-umbrella.h"
+
+  export *
+  module * { export * }
+}
