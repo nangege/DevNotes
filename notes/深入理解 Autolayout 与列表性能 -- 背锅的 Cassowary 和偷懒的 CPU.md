@@ -48,7 +48,7 @@ Autolayout 会将约束条件转换成线性规划问题，通过 Cassowary 算�
   
 ### <span id = "Autolayout">Autolayout 设计问题</span>
 
-Autolayout 构建在 Cassowary 之上，但是 autolayout 的一些机制没有充分利用 Cassowary 更新高效的特点。我们可以通过私有类和方法来研究系统内部的实现。这里有一个网站 [iOS SDK Header Dump](http://developer.limneos.net) 可以查看 iOS 的私有头文件。其中 `NSIS` 开头的类都是 Autolayout 相关的头文件。我把 iOS 11 Autolayout 相关的头文件下载下来并做成了一个可以运行的工程。可以 hook 内部实现或者打印变量来观察系统的调用，可以这里下载 [ExplorAutolayout](https://github.com/nangege/DevNotes/project/ExplorAutolayout) 。后面一些测试代码会基于这个工程。
+Autolayout 构建在 Cassowary 之上，但是 autolayout 的一些机制没有充分利用 Cassowary 更新高效的特点。我们可以通过私有类和方法来研究系统内部的实现。这里有一个网站 [iOS SDK Header Dump](http://developer.limneos.net) 可以查看 iOS 的私有头文件。其中 `NSIS` 开头的类都是 Autolayout 相关的头文件。我把 iOS 11 Autolayout 相关的头文件下载下来并做成了一个可以运行的工程。可以 hook 内部实现或者打印变量来观察系统的调用，可以这里下载 [ExplorAutolayout](https://github.com/nangege/DevNotes/tree/master/project/ExplorAutolayout) 。后面一些测试代码会基于这个工程。
 
 1. NSContentSizeLayoutConstraint
 
