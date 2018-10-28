@@ -2,20 +2,20 @@
 
  这篇文章会通过对 autolayout 内部实现的探索和数据分析和对 autolayout 的性能问题做一个详细的分析，并在最后给出一个高性能 `autolayout` 的解决方案。开始看文章之前，可以先试试这个 [demo](https://github.com/nangege/PandaDemo) ,使用 YYKit demo 数据做的微博 Feed 列表。使用我自己写的异步绘制组件 Panda 和和 ‘autolayout’ 框架 Layoutable 写的 ,cell 代码只有 五百多行,但是流畅度很高。
  
-[Cassowary 算法性能](#cassowary-算法性能)
+[Cassowary 算法性能](#aboutCassowary)
 
-[Autolayout 设计问题](#Autolayout-设计问题)
+[Autolayout 设计问题](#autolayout)
 
-[Text layout 对性能的影响](#Text-layout-对性能的影响)
+[Text layout 对性能的影响](#Textlayout)
 
-[CPU 调度对列表性能的影响](#CPU-调度对列表性能的影响)
+[CPU 调度对列表性能的影响](#aboutCPU)
 
 [Autolayout 的一些结论](#conclusion)
 
 [Panda](#Panda)
 
 
-### <span id = "Cassowary">Cassowary 算法性能</span>
+### <span id = "aboutCassowary">Cassowary 算法性能</span>
 
 Autolayout 会将约束条件转换成线性规划问题，通过 Cassowary 算法求解线性规划问题得到 frame。因此分析 autolayout 性能都绕不开 Cassowary 算法。大部分分析最后都会给出结论 “autolayout 性能差是 cassowary 算法的多项式的时间复杂度造成的”。也有一些会给出 autolayout 的 benchmark 来证明 cassowary 算法的问题。但是
 
@@ -34,7 +34,7 @@ Autolayout 会将约束条件转换成线性规划问题，通过 Cassowary 算�
 
 一组 benchmark: （MacBook Pro 2016 i5,iPhone6S 模拟器）
 
-![](resource/addVSupdate.png)
+![](https://user-gold-cdn.xitu.io/2018/10/28/166ba8d5fb440e0f?w=945&h=294&f=png&s=44919)
 
 - Autolayout: 是相对布局的耗时
 - Autolayout Nestlayout: 嵌套布局的耗时
@@ -46,15 +46,15 @@ Autolayout 会将约束条件转换成线性规划问题，通过 Cassowary 算�
 
 列表滚动中，一般情况下页面加载的时候 cell 和 约束已经创建，性能应该主要和更新约束相关（更新约束包括 UILabel。UIView 更改 text ,image 造成的 size 变化，更新系统默认的约束；也包括手动调整 NSLayoutConstraint 的 constant 属性等）。为什么实际表现却差很多呢？
   
-### <span id = "Autolayout">Autolayout 设计问题</span>
+### <span id = "autolayout">Autolayout 设计问题</span>
 
 Autolayout 构建在 Cassowary 之上，但是 autolayout 的一些机制没有充分利用 Cassowary 更新高效的特点。我们可以通过私有类和方法来研究系统内部的实现。这里有一个网站 [iOS SDK Header Dump](http://developer.limneos.net) 可以查看 iOS 的私有头文件。其中 `NSIS` 开头的类都是 Autolayout 相关的头文件。我把 iOS 11 Autolayout 相关的头文件下载下来并做成了一个可以运行的工程。可以 hook 内部实现或者打印变量来观察系统的调用，可以这里下载 [ExplorAutolayout](https://github.com/nangege/DevNotes/tree/master/project/ExplorAutolayout) 。后面一些测试代码会基于这个工程。
 
 1. NSContentSizeLayoutConstraint
 
    这是 [FDTemplateLayoutCell](https://github.com/forkingdog/UITableView-FDTemplateLayoutCell) profile 的一段结果，展开部分是 cellForRowAIndex 里运行的代码。
-
-   ![](resource/UIContentSizeLayoutConstraint.png) 
+   
+   ![](https://user-gold-cdn.xitu.io/2018/10/28/166ba8d601fba931?w=1269&h=146&f=png&s=74379)
   
    理论上 `cellForRowAIndex ` 是不需要创建 NSLayoutConstraint 的，毕竟 cell 已经创建过了, 更新数据的时候代码中并没有新加约束。但这里创建了 `UIContentSizeLayoutConstraint` 对象，`UIContentSizeLayoutConstraint` 继承自 `NSLayoutConstraint`,是专门用来约束 contentSize 的约束。 
   
@@ -107,7 +107,7 @@ Autolayout 构建在 Cassowary 之上，但是 autolayout 的一些机制没有�
   
    * 看另一组不包含 `intrinsicContentSize` 的 `UIView` 的数据，都是单纯的更新约束,区别只在于有没有添加到 window 上，以及强制布局的方法：  
 
-      ![](resource/updateConstant.png)
+     ![](https://user-gold-cdn.xitu.io/2018/10/28/166ba8d61931df5b?w=714&h=267&f=png&s=45075)
 
       -  `Apple constant` 是 view 没有并添加到 window 上，更新约束后调用 `layoutIfNeeded` 的数据。
       -  `Apple In Window constant`是把 view 添加到当前 window 上，更新约束后调用 `layoutIfNeeded ` 的数据
@@ -138,7 +138,7 @@ Autolayout 构建在 Cassowary 之上，但是 autolayout 的一些机制没有�
 
        profile 下
 
-       ![](resource/FDHeightForRow.png)
+       ![](https://user-gold-cdn.xitu.io/2018/10/28/166ba8d600a217f8?w=1187&h=100&f=png&s=56342)
 
        `systemLayoutSizeFittingSize ` 总耗时 276 ms, `layoutIfNeeded` 总耗时 161 `ms` 多了 70% 的耗时
 
@@ -237,28 +237,27 @@ Autolayout 构建在 Cassowary 之上，但是 autolayout 的一些机制没有�
 	  ```
 	  可以看到，没有添加到 `window` 之前, 调用 `layoutIfNeeded` 和 `systemLayoutSizeFittingSize` 每次都会创建 `NSISEnginer`；添加到 window 上以后，`layoutIfNeeded` 并不会创建 NSISEnginer, 而`systemLayoutSizeFittingSize ` 还是每次都会创建 `NSISEnginer`。创建新的 `NSISEnginer` 则意味着对应的所有约束，也会重新添加到 `NSISEnginer`,重新进行优化求解，这时候的耗时就变成了初次添加约束的时间。在列表的使用中，我们一般会在 `heightForRowAtIndexPath` 中创建一个不会添加到 window 上的 `cell` 调用 `systemLayoutSizeFittingSize ` 来计算高度。这个的计算耗时就要比 `cellForRowAtIndexPath` 中的耗时大很多。
 
+   ![](https://user-gold-cdn.xitu.io/2018/10/28/166ba8d60dc98b7f?w=1013&h=433&f=png&s=88818)
+   
+    `systemLayoutSizeFittingSize` 会重新创建 `NSISEnginer`和 WWDC 《High performance Autolayout》 所讲也是一致的。使用 `systemLayoutSizeFittingSize` 时，Autolayout 会创建新的 NSISEnginer 对象,重新添加约束求解，然后释放掉 NSISEnginer 对象。而对于   `layoutIfNeeded` 也很好理解，Autolayout 中，一个 window 层级下的 view 会共用 window 节点的 `NSISEnginer` 对象，没有添加到 window 上的 view 没有父 window 也就没办法共用，只能重新创建.
+   
+   ![](https://user-gold-cdn.xitu.io/2018/10/28/166ba8d62f5ff8d1?w=1014&h=447&f=png&s=50256)
 
-   ![](resource/GettingSize.png)
-  `systemLayoutSizeFittingSize` 会重新创建 `NSISEnginer`和 WWDC 《High performance Autolayout》 所讲也是一致的。使用 `systemLayoutSizeFittingSize` 时，Autolayout 会创建新的 NSISEnginer 对象,重新添加约束求解，然后释放掉 NSISEnginer 对象。而对于   `layoutIfNeeded` 也很好理解，Autolayout 中，一个 window 层级下的 view 会共用 window 节点的 `NSISEnginer` 对象，没有添加到 window 上的 view 没有父 window 也就没办法共用，只能重新创建.
+   而在 WWDC  介绍中 `systemLayoutSizeFitting` 是提供给 autolayout 和 frame 混合使用的，也不建议常用，似乎不是给计算高度来用的。
 
+   那么能不能在算高度时候把 cell 添加到 window 上，隐藏，然后用 `layoutIfNeeded` 来提高效率?
 
-   ![](resource/SystemLayout.png)
-
-    而在 WWDC  介绍中 `systemLayoutSizeFitting` 是提供给 autolayout 和 frame 混合使用的，也不建议常用，似乎不是给计算高度来用的。
-
-    那么能不能在算高度时候把 cell 添加到 window 上，隐藏，然后用 `layoutIfNeeded` 来提高效率?
-
-    🍎：呵呵 🙃
+   🍎：呵呵 🙃
   
-    `systemLayoutSizeFittingSize ` 对计算做了优化，计算好以后不会对 view 的 frame 进行操作，也就避免 layer 调整的相关耗时。所以同样是创建 `NSISEnginer` 重新添加约束， `systemLayoutSizeFittingSize` 比 `layoutIfNeeded` 要高效；添加到 window 上以后，`layoutIfNeeded` 计算的效率高于 `systemLayoutSizeFittingSize`,但是 `setFrame` 和触发的 layer 相关操作又会有额外的耗时，不一定会比直接使用 `systemLayoutSizeFittingSize ` 耗时少 。
-
-    ![](resource/Enginer.png)
+   `systemLayoutSizeFittingSize ` 对计算做了优化，计算好以后不会对 view 的 frame 进行操作，也就避免 layer 调整的相关耗时。所以同样是创建 `NSISEnginer` 重新添加约束， `systemLayoutSizeFittingSize` 比 `layoutIfNeeded` 要高效；添加到 window 上以后，`layoutIfNeeded` 计算的效率高于 `systemLayoutSizeFittingSize`,但是 `setFrame` 和触发的 layer 相关操作又会有额外的耗时，不一定会比直接使用 `systemLayoutSizeFittingSize ` 耗时少 。
+    
+    ![](https://user-gold-cdn.xitu.io/2018/10/28/166ba91c89afc668?w=1596&h=812&f=png&s=906843)
 
   > The Enginer is a layout cache and dependency tracker 
 
   Cassowary 的增量更新机制其实也算是某种程度上的缓存机制，重新创建 Enginer 的设计也就丢掉了 cache 的能力，降低了性能。
 
-### <span id = "TextLayout">Text layout 对性能的影响</span>
+### <span id = "Textlayout">Text layout 对性能的影响</span>
 
 虽然由于上述种种问题， 但如上图所示 `heightForRowAtIndexPath ` 里调用 `systemLayoutSizeFittingSize ` 再加上 `cellForRowAtIndexPath` 里调用 `layoutIfNeeded` 总耗时看起来也并不是很多，40 个 view 左右耗时也不到 4 ms，看起来还可以，为什么实际使用起来表现却差很多呢。
 
@@ -285,14 +284,15 @@ Autolayout 构建在 Cassowary 之上，但是 autolayout 的一些机制没有�
         ``` 
   
         结果差距很大
-  
-        ![](resource/TextLayoutApple.png)
+        
+        ![](https://user-gold-cdn.xitu.io/2018/10/28/166ba8d6ec2073b7?w=1297&h=214&f=png&s=113831)
   
         第一遍耗时 231 ms,后面两遍只有 98,87 毫秒
   
         如果把第一遍展开的话，就会发现大部分时间都是在文字上：
-  
-        ![](resource/TextLayoutSize.png)
+ 
+        ![](https://user-gold-cdn.xitu.io/2018/10/28/166ba8d6efbbfecb?w=1294&h=664&f=png&s=261386)
+        
   
         后面两遍因为和第一遍的数据一样，不会触发文字相关的操作。计算的时间只占了  30%-40%
 
@@ -325,7 +325,8 @@ Autolayout 构建在 Cassowary 之上，但是 autolayout 的一些机制没有�
   
   
        结果：（iPhone6 , iOS 12）
-       ![](resource/textLayout.png)
+       
+       ![](https://user-gold-cdn.xitu.io/2018/10/28/166ba8d70db6d660?w=1023&h=437&f=png&s=101448)
   
        - Panda FirstPass 是第一个 for 循环数据
        - Panda SecondPass 是第二个 for 循环数据
@@ -346,8 +347,7 @@ Autolayout 构建在 Cassowary 之上，但是 autolayout 的一些机制没有�
      * 手撕的 frame 时候开发人员需要额外注意计算顺序。比如计算一个多行的 UILabel，可能会先把左右两边相关的宽度计算好，这样可以知道 UILabel 最大宽度，或者直接指定 UILabel 的最大宽度，使用 `size(withAttributes:)` 进行一次 text layout 就可以把文字大小算出来。
      *  Autolayout 使开发者免去了操心布局顺序的负担（这也是 Autolayout 一个比较核心的优点）， 导致更新 UILabel 的约束时不能直接确定 UILabel 的最大宽度，怎么解决换行的问题？（iOS 6 的时候需要手动设置 preferrdMaxLayoutWidth，很多时候会造成很大困扰，因为并不是那么容易确定）。 对于多行文字的 UILabel,Autolayout 会进行两边 layout. 第一次 layout 会先假设文本可以一行展示完，进行一次 text layout ，计算一行文字的大小，更新 UILabel 的 size 约束。size 的宽高约束都不是 required 的，外部如果有对宽度相关的约束的话，也不会冲突。整个 view 层级一次布局结束之后，所有 view 的宽度就确定了，第二遍 layout 再以当前宽度再做一次 text layout ,更新文本宽高。这样 autolayout 文本的多行文字 textLayout 过程就要比手算 frame 多一倍。多行文本 layout 一般耗时更长。多出来一次的 text layout 的耗时就很多了了。
 
-
-    ![](resource/TextSize.png)
+    ![](https://user-gold-cdn.xitu.io/2018/10/28/166ba8d70d1d8e66?w=940&h=442&f=png&s=356344)
   
     textlayout 耗时占比很大，这也是为什么苹果推荐重写 UIlable 的 `intrinsicContentSize` 方法，然后约束宽高的方式来避免 text layout。但是实际使用中能这样优化的场景并不多。
 
@@ -361,13 +361,13 @@ Autolayout 构建在 Cassowary 之上，但是 autolayout 的一些机制没有�
 Textlayout 在计算和渲染过程占的比重很大，也是很多 app 即使 cell 高度用 frame 算，没有做 text layout 相关缓存或者异步 Label 也会不流畅的原因。单纯做计算的优化，不做 text layout 缓存的布局框架一般实际表现都不会太好。
   
 
-### <span id = "CPU">CPU 调度对列表性能的影响</span>
+### <span id = "aboutCPU">CPU 调度对列表性能的影响</span>
 
 上面的 benchmark 是针对 iPhone 6 的, 数据其实已经很不错了，更好的设备岂不是要逆天？
 
 看一组 iPhneX 的数据 （iPhoneX , iOS  12）
 
-![](resource/iPhoneX.png) 
+![](https://user-gold-cdn.xitu.io/2018/10/28/166ba8d7938beafc?w=1267&h=573&f=png&s=124813)
 
 即使第一次 layout,Panda 和 YYKit 平均耗时只有 1.34 毫秒，只更新约束更是只需要 0.287 毫秒。（这个数据远好于 2016 MacBook Pro 的表现）。时间宽裕度很大，看起来即使 autolayout 的耗时多个一两倍问题也不大。
 
@@ -375,8 +375,9 @@ Apple: 呵呵🙃
 
 benchmark 出来的耗时其实一般和实际运行是不一样。同样 iOS 12 iPhoneX ,如果对列表进行快速滑动的话，是可以到达 benchmark 的数据；如果滑动的不是很快的，上面 0.x,1.x ms 的耗时，很多就变成了 6 - 9 ms 左右。
 
-![](resource/CPU12.png)
-![](resource/CPU11.png)
+![](https://user-gold-cdn.xitu.io/2018/10/28/166ba8d875e4d1dd?w=1880&h=680&f=png&s=377515)
+
+![](https://user-gold-cdn.xitu.io/2018/10/28/166ba8d87272d066?w=1797&h=715&f=png&s=337570)
 
 CPU 达到最好性能是需要时间的，benchmark 过程计算比较集中， CPU 一直处于高性能状态。但是滑的慢一点的话，可能 CPU 性能还没起来计算就结束了。然后 CPU 开始偷懒。刚好性能下去以后另一计算过程又开始了。而且 iOS 12 这个已经优化过了，iOS11 和 iOS 10 表现更差。做 benchmark 的有时候也会有一个有趣的现象，如果有几组数据需要测试，在同一段代码里调用这些方法进行测试，方法的调用顺序对 benchmark 出来的数据影响特别大。放在第一个的方法耗时会被大大增加。
 
@@ -458,7 +459,3 @@ c.constant = 100
 2. 学习成本更低，API 和 思想上和 autolayout 都是一致的，对于 autolayout 使用者基本零门槛
 3. 完全 Swift 实现，对于使用 swift 的项目更友好。
 4. 开发效率和运行效率不输 Texture
-
-
- 
- 
