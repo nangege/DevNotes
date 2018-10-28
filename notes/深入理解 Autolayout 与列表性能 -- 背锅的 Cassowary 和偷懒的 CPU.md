@@ -6,9 +6,9 @@
 
 [Autolayout 设计问题](#autolayout)
 
-[Text layout 对性能的影响](#Textlayout)
+[Text layout 对性能的影响](#textlayout)
 
-[CPU 调度对列表性能的影响](#aboutCPU)
+[CPU 调度对列表性能的影响](#cpu)
 
 [Autolayout 的一些结论](#conclusion)
 
@@ -257,7 +257,7 @@ Autolayout 构建在 Cassowary 之上，但是 autolayout 的一些机制没有�
 
   Cassowary 的增量更新机制其实也算是某种程度上的缓存机制，重新创建 Enginer 的设计也就丢掉了 cache 的能力，降低了性能。
 
-### <span id = "Textlayout">Text layout 对性能的影响</span>
+### <span id = "textlayout">Text layout 对性能的影响</span>
 
 虽然由于上述种种问题， 但如上图所示 `heightForRowAtIndexPath ` 里调用 `systemLayoutSizeFittingSize ` 再加上 `cellForRowAtIndexPath` 里调用 `layoutIfNeeded` 总耗时看起来也并不是很多，40 个 view 左右耗时也不到 4 ms，看起来还可以，为什么实际使用起来表现却差很多呢。
 
@@ -361,7 +361,7 @@ Autolayout 构建在 Cassowary 之上，但是 autolayout 的一些机制没有�
 Textlayout 在计算和渲染过程占的比重很大，也是很多 app 即使 cell 高度用 frame 算，没有做 text layout 相关缓存或者异步 Label 也会不流畅的原因。单纯做计算的优化，不做 text layout 缓存的布局框架一般实际表现都不会太好。
   
 
-### <span id = "aboutCPU">CPU 调度对列表性能的影响</span>
+### <span id = "cpu">CPU 调度对列表性能的影响</span>
 
 上面的 benchmark 是针对 iPhone 6 的, 数据其实已经很不错了，更好的设备岂不是要逆天？
 
